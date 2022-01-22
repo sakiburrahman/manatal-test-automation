@@ -1,0 +1,50 @@
+{
+  "uid" : "fee9a863b6ea7a75",
+  "name" : "Should open free trial page",
+  "fullName" : "Authentify user can signup.Should open free trial page",
+  "historyId" : "3c2efe26a7bfc2991374eff9ac1411af",
+  "time" : {
+    "start" : 1642891957667,
+    "stop" : 1642891957832,
+    "duration" : 165
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testClass",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should open free trial page"
+  }, {
+    "name" : "package",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fee9a863b6ea7a75.json",
+  "parameterValues" : [ ]
+}

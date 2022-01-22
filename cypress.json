@@ -1,0 +1,22 @@
+{
+    "watchForFilesChanges": false,
+    "chromeWebSecurity": false,
+    "viewportWidth": 2445,
+    "viewportHeight": 1370,
+    "waitForAnimation": true,
+    "defaultCommandTimeout": 30000,
+    "pageLoadTimeout": 90000,
+    "video": true,
+    "videoCompression": false,
+    "videoUploadOnPasses": true,
+    "videosFolder": "./cypress/videos",
+    "failOnStatusCode": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "cypress/test-report/mochawesome-result",
+      "overwrite": false,
+      "html": true,
+      "json": false,
+      "timestamp": "mm-dd-yyyy_HHMMss"
+    }
+  }

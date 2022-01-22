@@ -1,0 +1,50 @@
+{
+  "uid" : "a5db330565b3c9a6",
+  "name" : "Should display all the input fields, buttons and links",
+  "fullName" : "Authentify user can signup.Should display all the input fields, buttons and links",
+  "historyId" : "8d9b45803c0d478913d1e91d81272174",
+  "time" : {
+    "start" : 1642891957843,
+    "stop" : 1642891958164,
+    "duration" : 321
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testClass",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should display all the input fields, buttons and links"
+  }, {
+    "name" : "package",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a5db330565b3c9a6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,50 @@
+{
+  "uid" : "21ba547a689c28a8",
+  "name" : "Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form",
+  "fullName" : "Authentify user can signup.Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form",
+  "historyId" : "7a2cd025152a3c4b17bcacaaad8891c0",
+  "time" : {
+    "start" : 1642891964029,
+    "stop" : 1642891966276,
+    "duration" : 2247
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testClass",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form"
+  }, {
+    "name" : "package",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21ba547a689c28a8.json",
+  "parameterValues" : [ ]
+}

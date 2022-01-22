@@ -1,0 +1,179 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Should open free trial page",
+    "uid" : "39132d108e7fad96",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642891547931,
+      "stop" : 1642891548114,
+      "duration" : 183
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should display all the input fields, buttons and links",
+    "uid" : "87dbf1a432969cd9",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642891548158,
+      "stop" : 1642891548528,
+      "duration" : 370
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check that the required fields of the signup form behave as expected",
+    "uid" : "66f4fa943c5f4b84",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642891548556,
+      "stop" : 1642891548944,
+      "duration" : 388
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check that the privacy policy & terms and conditions is required to submit the form",
+    "uid" : "9f05e4faa3c2477e",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642891549043,
+      "stop" : 1642891554633,
+      "duration" : 5590
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form",
+    "uid" : "a7825b2cc41bcb87",
+    "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642891554727,
+      "stop" : 1642891556848,
+      "duration" : 2121
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Authentify user can signup",
+    "children" : [ {
+      "name" : "Should open free trial page",
+      "uid" : "fee9a863b6ea7a75",
+      "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642891957667,
+        "stop" : 1642891957832,
+        "duration" : 165
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Should display all the input fields, buttons and links",
+      "uid" : "a5db330565b3c9a6",
+      "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642891957843,
+        "stop" : 1642891958164,
+        "duration" : 321
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check that the required fields of the signup form behave as expected",
+      "uid" : "4e2efe924649c79d",
+      "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642891958175,
+        "stop" : 1642891958568,
+        "duration" : 393
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check that the privacy policy & terms and conditions is required to submit the form",
+      "uid" : "33996fb073773033",
+      "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642891958581,
+        "stop" : 1642891964002,
+        "duration" : 5421
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form",
+      "uid" : "21ba547a689c28a8",
+      "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642891964029,
+        "stop" : 1642891966276,
+        "duration" : 2247
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2926cff6b0f8aebb4d71f9733747cf1b"
+  } ]
+}
