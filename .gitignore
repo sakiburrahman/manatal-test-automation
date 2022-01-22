@@ -1,8 +1,8 @@
 # Ignore
-# cypress/test-reports/
-# cypress/downloads/
-# cypress/screenshots/
-# cypress/videos/
-# allure_results/
-# allure_reports/
-# node_modules/
+cypress/test-reports/
+cypress/downloads/
+cypress/screenshots/
+cypress/videos/
+allure_results/
+allure_reports/
+node_modules/
