@@ -16,14 +16,14 @@ describe('Authentify user can signup', () => {
 
     });
 
-    it('Should open free trial page', () => {
+    it('Test_Case >> 100001 >> Should open free trial page', () => {
         signupPage.displayHeaderText();
         signupPage.getHeaderText().contains('Start Your Free Trial');
         signupPage.getFreeTrialDaysText().contains('14-day free trial and no credit card required.');
 
 
     })
-    it('Should display all the input fields, buttons and links', () => {
+    it('Test_Case >> 100002 >> Verify all the input fields, buttons and links are beign displayed signup page', () => {
         signupPage.displayLoginLink();
         signupPage.displayNameInputField();
         signupPage.displayOrganizationNameInputField();
@@ -40,8 +40,18 @@ describe('Authentify user can signup', () => {
         signupPage.displaySignupButton();
     })
 
+    it('Test_Case >> 100003 >> Verify all the required fields have asterisk sign', () => {
 
-    it('Check that the required fields of the signup form behave as expected', () => {
+        signupPage.getNameInputFieldLabel().contains('Name *');
+        signupPage.getOrganizationNameInputFieldLabel().contains('Organization Name *');
+        signupPage.getCompanyEmailAddressInputFieldLabel().contains('Company Email Address *');
+        signupPage.getConfirmCompanyEmailAddressInputFieldLabel().contains('Confirm Company Email Address *');
+        signupPage.getPasswordInputFieldLabel().contains('Password *');
+
+    })
+
+
+    it('Test_Case >> 100004 >> Check that the required fields of the signup form behave as expected', () => {
         signupPage.displaySignupButton();
         signupPage.clickOnSignupButton();
         signupPage.displayErrorMessageOfNameInputField();
@@ -53,21 +63,59 @@ describe('Authentify user can signup', () => {
 
     })
 
-    it('Check that the privacy policy & terms and conditions is required to submit the form', () => {
+    it('Test_Case >> 100005 >> Verify that name length must not be more than 255 characters', () => {
+        signupPage.inputLongName();
+        signupPage.getFirstErrorMessage().contains('The name field may not be greater than 255 characters');
+
+    })
+
+    it('Test_Case >> 100006 >> Verify that organization name length must not be more than 255 characters', () => {
         signupPage.inputName();
+        signupPage.inputLongOrganizationName();
+        signupPage.getFirstErrorMessage().contains('The organization name field may not be greater than 255 characters');
+
+    })
+
+
+    it('Test_Case >> 100007 >> Verify that email address must be valid', () => {
         signupPage.inputOrganizationName();
+        signupPage.inputInvalidCompanyEmail();
+        signupPage.getFirstErrorMessage().contains('The email address field must be a valid email');
+
+    })
+
+    it('Test_Case >> 100008>> Verify that email length must not be more than 254 characters', () => {
+        signupPage.inputLongCompanyEmail();
+        signupPage.getFirstErrorMessage().contains('The company email address field may not be greater than 254 characters');
+
+    })
+
+
+    it('Test_Case >> 100009>> Verify that company email address and confirm compnay email address must match', () => {
         signupPage.inputCompanyEmail();
+        signupPage.inputDifferentConfirmCompanyEmail();
+        signupPage.getFirstErrorMessage().contains('The confirm company email address confirmation does not match');
+
+    })
+
+    it('Test_Case >> 100010>> Verify that password length must not be more than 254 characters', () => {
         signupPage.inputConfirmCompanyEmail();
+        signupPage.inputLongPassword();
+        signupPage.getFirstErrorMessage().contains('The password field may not be greater than 255 characters');
+
+    })
+
+    it('Test_Case >> 100011 >> Check that the privacy policy & terms and conditions is required to submit the form', () => {
         signupPage.inputPassword();
         signupPage.selectCountyCode();
         signupPage.inputPhoneNumber();
         signupPage.displaySignupButton();
         signupPage.clickOnSignupButton();
         signupPage.displayErrorMessageOfAgreeCheckbox();
-     
+
     })
 
-    it('Check that the "confirm your email-address" page is displayed after the form submission and includes the email address added by the user in the sign up form', () => {
+    it('Test_Case >> 100012 >> Check that the "confirm your email-address" page is displayed after the form submission and includes the email address added by the user in the sign up form', () => {
         signupPage.checkIAgreeCheckbox();
         signupPage.displaySignupButton();
         signupPage.clickOnSignupButton();

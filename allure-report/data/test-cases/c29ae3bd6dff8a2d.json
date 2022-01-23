@@ -1,12 +1,12 @@
 {
-  "uid" : "4e2efe924649c79d",
-  "name" : "Check that the required fields of the signup form behave as expected",
-  "fullName" : "Authentify user can signup.Check that the required fields of the signup form behave as expected",
-  "historyId" : "2ea417d61a6d7a07ab79c7b39568f634",
+  "uid" : "c29ae3bd6dff8a2d",
+  "name" : "Test_Case >> 100001 >> Should open free trial page",
+  "fullName" : "Authentify user can signup.Test_Case >> 100001 >> Should open free trial page",
+  "historyId" : "96f9e1d5d304a152d4fb18bb35f37033",
   "time" : {
-    "start" : 1642891958175,
-    "stop" : 1642891958568,
-    "duration" : 393
+    "start" : 1642974103793,
+    "stop" : 1642974103872,
+    "duration" : 79
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,7 +27,7 @@
     "value" : "Authentify user can signup"
   }, {
     "name" : "testMethod",
-    "value" : "Check that the required fields of the signup form behave as expected"
+    "value" : "Test_Case >> 100001 >> Should open free trial page"
   }, {
     "name" : "package",
     "value" : "Authentify user can signup"
@@ -45,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4e2efe924649c79d.json",
+  "source" : "c29ae3bd6dff8a2d.json",
   "parameterValues" : [ ]
 }

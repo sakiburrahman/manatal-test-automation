@@ -1,12 +1,12 @@
 {
-  "uid" : "33996fb073773033",
-  "name" : "Check that the privacy policy & terms and conditions is required to submit the form",
-  "fullName" : "Authentify user can signup.Check that the privacy policy & terms and conditions is required to submit the form",
-  "historyId" : "7f13e2dc80b6aaa4d0c92165790a45be",
+  "uid" : "68e17af6f865c5bf",
+  "name" : "Test_Case >> 100002 >> Verify all the input fields, buttons and links are beign displayed",
+  "fullName" : "Authentify user can signup.Test_Case >> 100002 >> Verify all the input fields, buttons and links are beign displayed",
+  "historyId" : "e2975c2d63f0653e8127d4992d7b7f65",
   "time" : {
-    "start" : 1642891958581,
-    "stop" : 1642891964002,
-    "duration" : 5421
+    "start" : 1642974103883,
+    "stop" : 1642974104056,
+    "duration" : 173
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,7 +27,7 @@
     "value" : "Authentify user can signup"
   }, {
     "name" : "testMethod",
-    "value" : "Check that the privacy policy & terms and conditions is required to submit the form"
+    "value" : "Test_Case >> 100002 >> Verify all the input fields, buttons and links are beign displayed"
   }, {
     "name" : "package",
     "value" : "Authentify user can signup"
@@ -45,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "33996fb073773033.json",
+  "source" : "68e17af6f865c5bf.json",
   "parameterValues" : [ ]
 }

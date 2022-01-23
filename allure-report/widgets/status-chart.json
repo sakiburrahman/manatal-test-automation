@@ -1,100 +1,60 @@
 [ {
-  "uid" : "9f05e4faa3c2477e",
-  "name" : "Check that the privacy policy & terms and conditions is required to submit the form",
+  "uid" : "ea69b9c676cec4eb",
+  "name" : "Test_Case >> 100005 >> Check that the privacy policy & terms and conditions is required to submit the form",
   "time" : {
-    "start" : 1642891549043,
-    "stop" : 1642891554633,
-    "duration" : 5590
+    "start" : 1642974104333,
+    "stop" : 1642974108786,
+    "duration" : 4453
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a5db330565b3c9a6",
-  "name" : "Should display all the input fields, buttons and links",
+  "uid" : "2882fd6e4f5e61be",
+  "name" : "Test_Case >> 100006 >> Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form",
   "time" : {
-    "start" : 1642891957843,
-    "stop" : 1642891958164,
-    "duration" : 321
+    "start" : 1642974108800,
+    "stop" : 1642974110559,
+    "duration" : 1759
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4e2efe924649c79d",
-  "name" : "Check that the required fields of the signup form behave as expected",
+  "uid" : "d967075c6d7608d0",
+  "name" : "Test_Case >> 100003 >> Verify all the required fields have asterisk sign",
   "time" : {
-    "start" : 1642891958175,
-    "stop" : 1642891958568,
-    "duration" : 393
+    "start" : 1642974104065,
+    "stop" : 1642974104091,
+    "duration" : 26
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fee9a863b6ea7a75",
-  "name" : "Should open free trial page",
+  "uid" : "a269946df1f9d59e",
+  "name" : "Test_Case >> 100004 >> Check that the required fields of the signup form behave as expected",
   "time" : {
-    "start" : 1642891957667,
-    "stop" : 1642891957832,
-    "duration" : 165
+    "start" : 1642974104097,
+    "stop" : 1642974104321,
+    "duration" : 224
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "33996fb073773033",
-  "name" : "Check that the privacy policy & terms and conditions is required to submit the form",
+  "uid" : "c29ae3bd6dff8a2d",
+  "name" : "Test_Case >> 100001 >> Should open free trial page",
   "time" : {
-    "start" : 1642891958581,
-    "stop" : 1642891964002,
-    "duration" : 5421
+    "start" : 1642974103793,
+    "stop" : 1642974103872,
+    "duration" : 79
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "39132d108e7fad96",
-  "name" : "Should open free trial page",
+  "uid" : "68e17af6f865c5bf",
+  "name" : "Test_Case >> 100002 >> Verify all the input fields, buttons and links are beign displayed",
   "time" : {
-    "start" : 1642891547931,
-    "stop" : 1642891548114,
-    "duration" : 183
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "87dbf1a432969cd9",
-  "name" : "Should display all the input fields, buttons and links",
-  "time" : {
-    "start" : 1642891548158,
-    "stop" : 1642891548528,
-    "duration" : 370
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "66f4fa943c5f4b84",
-  "name" : "Check that the required fields of the signup form behave as expected",
-  "time" : {
-    "start" : 1642891548556,
-    "stop" : 1642891548944,
-    "duration" : 388
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a7825b2cc41bcb87",
-  "name" : "Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form",
-  "time" : {
-    "start" : 1642891554727,
-    "stop" : 1642891556848,
-    "duration" : 2121
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "21ba547a689c28a8",
-  "name" : "Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form",
-  "time" : {
-    "start" : 1642891964029,
-    "stop" : 1642891966276,
-    "duration" : 2247
+    "start" : 1642974103883,
+    "stop" : 1642974104056,
+    "duration" : 173
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,12 +1,12 @@
 {
-  "uid" : "a5db330565b3c9a6",
-  "name" : "Should display all the input fields, buttons and links",
-  "fullName" : "Authentify user can signup.Should display all the input fields, buttons and links",
-  "historyId" : "8d9b45803c0d478913d1e91d81272174",
+  "uid" : "2882fd6e4f5e61be",
+  "name" : "Test_Case >> 100006 >> Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form",
+  "fullName" : "Authentify user can signup.Test_Case >> 100006 >> Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form",
+  "historyId" : "10d78f7ee5d7806e1a470b34e1943067",
   "time" : {
-    "start" : 1642891957843,
-    "stop" : 1642891958164,
-    "duration" : 321
+    "start" : 1642974108800,
+    "stop" : 1642974110559,
+    "duration" : 1759
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,7 +27,7 @@
     "value" : "Authentify user can signup"
   }, {
     "name" : "testMethod",
-    "value" : "Should display all the input fields, buttons and links"
+    "value" : "Test_Case >> 100006 >> Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form"
   }, {
     "name" : "package",
     "value" : "Authentify user can signup"
@@ -45,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a5db330565b3c9a6.json",
+  "source" : "2882fd6e4f5e61be.json",
   "parameterValues" : [ ]
 }

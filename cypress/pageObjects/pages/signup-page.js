@@ -6,12 +6,17 @@ import BasePage from "../base-page";
 const FREE_TRIAL_TEXT = 'h5';
 const NUMBER_OF_DAYS_FREE_TRIAL_TEXT = '.mt-3';
 const NAME_INPUT_FIELD = '#name';
+const NAME_INPUT_FIELD_LABEL = '#account_signup > :nth-child(1)';
 const ORGANIZATION_NAME_INPUT_FIELD = '#organization_name';
+const ORGANIZATION_NAME_INPUT_FIELD_LABEL = '#account_signup > :nth-child(2)';
 const AGENCY_RADIO_BUTTON = '#agency';
 const COMPANY_RADIO_BUTTON = '#company';
 const COMPANY_EMAIL_ADDRESS_INPUT_FIELD = '#company_email_address';
+const COMPANY_EMAIL_ADDRESS_INPUT_FIELD_LABEL = '#account_signup > :nth-child(4)';
 const CONFIRM_COMPANY_EMAIL_ADDRESS_INPUT_FIELD = '#confirm_company_email_address';
+const CONFIRM_COMPANY_EMAIL_ADDRESS_INPUT_FIELD_LABEL = '#account_signup > :nth-child(5)';
 const PASSWORD_INPUT_FIELD = '#password';
+const PASSWORD_INPUT_FIELD_LABEL = '#account_signup > :nth-child(6)'
 const COUNTRY_SELECTOR_DROPDOWN_MENU = '.vti__selection > .vti__flag';
 const BD_COUNTRY_CODE = 'li:nth-of-type(17) > strong'
 const PHONE_NUMBER_INPUT_FIELD = '[name="phone"]';
@@ -20,6 +25,7 @@ const PRIVACY_POLICY_LINK = '[href="https://www.manatal.com/privacy-policy/"]';
 const TERMS_CONDITION_LINK = '[href="https://www.manatal.com/terms-and-conditions/"]';
 const SIGNUP_BUTTON = '.signup-material-button-contained';
 const LOGIN_LINK = '.ml-1';
+const FIRST_ERROR_MESSAGE = '#account_signup > span:nth-of-type(1)'
 const ERROR_MESSAGE_OF_NAME_INPUT_FIELD = '#account_signup > span:nth-of-type(1)'
 const ERROR_MESSAGE_OF_ORGANIZATION_NAME_INPUT_FIELD = 'span:nth-of-type(2)'
 const ERROR_MESSAGE_OF_COMPANY_EMAIL_ADDRESS_INPUT_FIELD = 'span:nth-of-type(3)'
@@ -43,12 +49,17 @@ export default class SignUpPage {
     getHeaderText = () => cy.get(FREE_TRIAL_TEXT);
     getFreeTrialDaysText = () => cy.get(NUMBER_OF_DAYS_FREE_TRIAL_TEXT);
     getNameInputField = () => cy.get(NAME_INPUT_FIELD);
+    getNameInputFieldLabel = () => cy.get(NAME_INPUT_FIELD_LABEL);
     getOrganizationNameInputField = () => cy.get(ORGANIZATION_NAME_INPUT_FIELD);
+    getOrganizationNameInputFieldLabel = () => cy.get(ORGANIZATION_NAME_INPUT_FIELD_LABEL);
     getAgencyRadioButton = () => cy.get(AGENCY_RADIO_BUTTON);
     getCompanyRadioButton = () => cy.get(COMPANY_RADIO_BUTTON);
     getCompanyEmailAddressInputField = () => cy.get(COMPANY_EMAIL_ADDRESS_INPUT_FIELD);
+    getCompanyEmailAddressInputFieldLabel = () => cy.get(COMPANY_EMAIL_ADDRESS_INPUT_FIELD_LABEL)
     getConfirmCompanyEmailAddressInputField = () => cy.get(CONFIRM_COMPANY_EMAIL_ADDRESS_INPUT_FIELD);
+    getConfirmCompanyEmailAddressInputFieldLabel = () => cy.get(CONFIRM_COMPANY_EMAIL_ADDRESS_INPUT_FIELD_LABEL);
     getPasswordInputField = () => cy.get(PASSWORD_INPUT_FIELD);
+    getPasswordInputFieldLabel = () => cy.get(PASSWORD_INPUT_FIELD_LABEL);
     getCountrySelectorDropDownMenu = () => cy.get(COUNTRY_SELECTOR_DROPDOWN_MENU);
     getBDCountryCode = () => cy.get(BD_COUNTRY_CODE);
     getPhoneNumberInputField = () => cy.get(PHONE_NUMBER_INPUT_FIELD);
@@ -58,6 +69,8 @@ export default class SignUpPage {
     getSignupButton = () => cy.get(SIGNUP_BUTTON);
     getLoginLink = () => cy.get(LOGIN_LINK);
 
+
+    getFirstErrorMessage = () => cy.get(FIRST_ERROR_MESSAGE);
     getErrorMessageOfNameInputField = () => cy.get(ERROR_MESSAGE_OF_NAME_INPUT_FIELD);
     getErrorMessageOfOrganizationNameInputField = () => cy.get(ERROR_MESSAGE_OF_ORGANIZATION_NAME_INPUT_FIELD);
     getErrorMessageOfCompanyEmailAddressInputField = () => cy.get(ERROR_MESSAGE_OF_COMPANY_EMAIL_ADDRESS_INPUT_FIELD);
@@ -207,9 +220,9 @@ export default class SignUpPage {
 
     displayRegisteredEmailText = () => {
         cy.fixture('registeredUserInfo').then((data) => {
-            const Email = data.emailAddress;
+            const EMAIL = data.emailAddress;
             this.getRegisteredEmailText().isVisible(REGISTERED_EMAIL_TEXT);
-            this.getRegisteredEmailText().contains(Email);
+            this.getRegisteredEmailText().contains(EMAIL);
             basePage.logInfo('Registered email address is being dispayed in [confirmation] page');
         });
     };
@@ -227,6 +240,13 @@ export default class SignUpPage {
         this.getBDCountryCode().click();
         this.getCountrySelectorDropDownMenu().should('have.class', 'bd');
         basePage.logInfo('[Bangladesh] county code has been selected');
+    };
+
+
+    selectkCompanyRadioButton = () => {
+        this.displayAgreeCheckbox();
+        this.getCompanyRadioButton().click();
+        basePage.logInfo('[Compnay] radio button has been selected');
     };
 
     // ----------------------------------- Check Funtion ----------------------------------- 
@@ -258,6 +278,16 @@ export default class SignUpPage {
         });
     };
 
+    inputLongName = () => {
+        const FULL_NAME = 'Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jonathon_Jona';
+        this.getNameInputField().clear();
+        basePage.logInfo('[Name] input box has been cleared');
+        this.getNameInputField().type(FULL_NAME);
+        basePage.logInfo(FULL_NAME + 'has been entered in [Name] input field');
+
+
+    };
+
     inputOrganizationName = () => {
         cy.fixture('registeredUserInfo').then((data) => {
             const ORGANIZATION_NAME = data.organizationName;
@@ -268,30 +298,77 @@ export default class SignUpPage {
         });
     };
 
+    inputLongOrganizationName = () => {
+        const ORGANIZATION_NAME = 'ABC_Corporation_Limited_ABC_Corporation_Limited_ABC_Corporation_Limited ABC_Corporation_Limited_ABC_Corporation_Limited_ABC_Corporation_Limited ABC_Corporation_Limited_ABC_Corporation_Limited_ABC_Corporation_Limited ABC_Corporation_Limited_ABC_Corporation_';
+        this.getOrganizationNameInputField().clear();
+        basePage.logInfo('[Organization Name] input box has been cleared');
+        this.getOrganizationNameInputField().type(ORGANIZATION_NAME);
+        basePage.logInfo(ORGANIZATION_NAME + ' has been entered in [Organization Name] input field');
+
+    };
+
+
+    inputInvalidCompanyEmail = () => {
+        const EMAIL = 'abc@gmail';
+        this.getCompanyEmailAddressInputField().clear();
+        basePage.logInfo('[Confirm Company Email Address] input box has been cleared');
+        this.getCompanyEmailAddressInputField().type(EMAIL);
+        basePage.logInfo(EMAIL + ' has been entered in [Confirm Company Email Address] input field');
+
+    };
+
+    inputLongCompanyEmail = () => {
+        const EMAIL = 'testmanatalsignup_1testmanatalsignup_2testmanatalsignup_3testmanatalsignup_4testmanatalsignup_5testmanatalsignup_6testmanatalsignup_7testmanatalsignup_8testmanatalsignup_9testmanatalsignup_10testmanatalsignup_11testmanatalsignup_12testmanatalsig@gmail.com';
+        this.getCompanyEmailAddressInputField().clear();
+        basePage.logInfo('[Confirm Company Email Address] input box has been cleared');
+        this.getCompanyEmailAddressInputField().type(EMAIL);
+        basePage.logInfo(EMAIL + ' has been entered in [Confirm Company Email Address] input field');
+
+    };
+
+
     inputCompanyEmail = () => {
         cy.fixture('registeredUserInfo').then((data) => {
-            const Email = data.emailAddress;
+            const EMAIL = data.emailAddress;
             this.getCompanyEmailAddressInputField().clear();
             basePage.logInfo('[Company Email Address] input box has been cleared');
-            this.getCompanyEmailAddressInputField().type(Email);
-            basePage.logInfo(Email + ' has been entered in [Company Email Address] input field');
+            this.getCompanyEmailAddressInputField().type(EMAIL);
+            basePage.logInfo(EMAIL + ' has been entered in [Company Email Address] input field');
         });
     };
 
     inputConfirmCompanyEmail = () => {
         cy.fixture('registeredUserInfo').then((data) => {
-            const Email = data.emailAddress;
+            const EMAIL = data.emailAddress;
             this.getConfirmCompanyEmailAddressInputField().clear();
             basePage.logInfo('[Confirm Company Email Address] input box has been cleared');
-            this.getConfirmCompanyEmailAddressInputField().type(Email);
-            basePage.logInfo(Email + ' has been entered in [Confirm Company Email Address] input field');
+            this.getConfirmCompanyEmailAddressInputField().type(EMAIL);
+            basePage.logInfo(EMAIL + ' has been entered in [Confirm Company Email Address] input field');
         });
+    };
+
+    inputDifferentConfirmCompanyEmail = () => {
+        const EMAIL = 'abc@gmail.com';
+        this.getConfirmCompanyEmailAddressInputField().clear();
+        basePage.logInfo('[Confirm Company Email Address] input box has been cleared');
+        this.getConfirmCompanyEmailAddressInputField().type(EMAIL);
+        basePage.logInfo(EMAIL + ' has been entered in [Confirm Company Email Address] input field');
+
     };
 
     inputPassword = () => {
         this.getPasswordInputField().clear();
         basePage.logInfo('[Password] input box has been cleared');
         this.getPasswordInputField().type('Esd!@3');
+        basePage.logInfo('Password has been entered in [Password] input field');
+
+    };
+
+    inputLongPassword = () => {
+        const PASSWORD = 'I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhFnTNCah&I$jhF';
+        this.getPasswordInputField().clear();
+        basePage.logInfo('[Password] input box has been cleared');
+        this.getPasswordInputField().type(PASSWORD);
         basePage.logInfo('Password has been entered in [Password] input field');
 
     };

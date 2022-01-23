@@ -1,12 +1,12 @@
 {
-  "uid" : "21ba547a689c28a8",
-  "name" : "Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form",
-  "fullName" : "Authentify user can signup.Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form",
-  "historyId" : "7a2cd025152a3c4b17bcacaaad8891c0",
+  "uid" : "d967075c6d7608d0",
+  "name" : "Test_Case >> 100003 >> Verify all the required fields have asterisk sign",
+  "fullName" : "Authentify user can signup.Test_Case >> 100003 >> Verify all the required fields have asterisk sign",
+  "historyId" : "4513fd4be85acb67ba114a1c41de4322",
   "time" : {
-    "start" : 1642891964029,
-    "stop" : 1642891966276,
-    "duration" : 2247
+    "start" : 1642974104065,
+    "stop" : 1642974104091,
+    "duration" : 26
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,7 +27,7 @@
     "value" : "Authentify user can signup"
   }, {
     "name" : "testMethod",
-    "value" : "Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form"
+    "value" : "Test_Case >> 100003 >> Verify all the required fields have asterisk sign"
   }, {
     "name" : "package",
     "value" : "Authentify user can signup"
@@ -45,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "21ba547a689c28a8.json",
+  "source" : "d967075c6d7608d0.json",
   "parameterValues" : [ ]
 }

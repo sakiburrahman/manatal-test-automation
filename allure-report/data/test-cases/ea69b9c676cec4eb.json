@@ -1,0 +1,50 @@
+{
+  "uid" : "ea69b9c676cec4eb",
+  "name" : "Test_Case >> 100005 >> Check that the privacy policy & terms and conditions is required to submit the form",
+  "fullName" : "Authentify user can signup.Test_Case >> 100005 >> Check that the privacy policy & terms and conditions is required to submit the form",
+  "historyId" : "8d994c94ea0f19e395d50493d17b90b1",
+  "time" : {
+    "start" : 1642974104333,
+    "stop" : 1642974108786,
+    "duration" : 4453
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testClass",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Case >> 100005 >> Check that the privacy policy & terms and conditions is required to submit the form"
+  }, {
+    "name" : "package",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea69b9c676cec4eb.json",
+  "parameterValues" : [ ]
+}

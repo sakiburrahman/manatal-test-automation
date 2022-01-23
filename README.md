@@ -32,5 +32,5 @@ npm run cy:mocha
 npm run cy:open
 
 # To run the test script with allure report
-npm run cy:allure
+npm run test:allure
 
