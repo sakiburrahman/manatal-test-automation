@@ -1,0 +1,50 @@
+{
+  "uid" : "a00df33b20cdb9f3",
+  "name" : "Test_Case >> 100001 >> Should open free trial page",
+  "fullName" : "Authentify user can signup.Test_Case >> 100001 >> Should open free trial page",
+  "historyId" : "96f9e1d5d304a152d4fb18bb35f37033",
+  "time" : {
+    "start" : 1642985384454,
+    "stop" : 1642985384563,
+    "duration" : 109
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testClass",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Case >> 100001 >> Should open free trial page"
+  }, {
+    "name" : "package",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a00df33b20cdb9f3.json",
+  "parameterValues" : [ ]
+}

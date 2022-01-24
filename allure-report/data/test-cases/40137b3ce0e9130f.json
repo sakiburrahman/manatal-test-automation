@@ -1,0 +1,50 @@
+{
+  "uid" : "40137b3ce0e9130f",
+  "name" : "Test_Case >> 100013 >> Verify that phone number only accept numeric characters",
+  "fullName" : "Authentify user can signup.Test_Case >> 100013 >> Verify that phone number only accept numeric characters",
+  "historyId" : "aabb0f85968d76c445a8afe4bc79060b",
+  "time" : {
+    "start" : 1642985437088,
+    "stop" : 1642985437434,
+    "duration" : 346
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testClass",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Case >> 100013 >> Verify that phone number only accept numeric characters"
+  }, {
+    "name" : "package",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "40137b3ce0e9130f.json",
+  "parameterValues" : [ ]
+}

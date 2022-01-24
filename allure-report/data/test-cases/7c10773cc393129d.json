@@ -1,0 +1,50 @@
+{
+  "uid" : "7c10773cc393129d",
+  "name" : "Test_Case >> 100003 >> Verify all the required fields have asterisk sign",
+  "fullName" : "Authentify user can signup.Test_Case >> 100003 >> Verify all the required fields have asterisk sign",
+  "historyId" : "4513fd4be85acb67ba114a1c41de4322",
+  "time" : {
+    "start" : 1642985384845,
+    "stop" : 1642985384880,
+    "duration" : 35
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testClass",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Case >> 100003 >> Verify all the required fields have asterisk sign"
+  }, {
+    "name" : "package",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c10773cc393129d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,50 @@
+{
+  "uid" : "2b18069ed077db53",
+  "name" : "Test_Case >> 100002 >> Verify all the input fields, buttons and links are beign displayed signup page",
+  "fullName" : "Authentify user can signup.Test_Case >> 100002 >> Verify all the input fields, buttons and links are beign displayed signup page",
+  "historyId" : "da8badf5ed56fd3ec9d586138415bd82",
+  "time" : {
+    "start" : 1642985384576,
+    "stop" : 1642985384834,
+    "duration" : 258
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testClass",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Case >> 100002 >> Verify all the input fields, buttons and links are beign displayed signup page"
+  }, {
+    "name" : "package",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b18069ed077db53.json",
+  "parameterValues" : [ ]
+}

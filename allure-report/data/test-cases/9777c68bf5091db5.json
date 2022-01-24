@@ -1,12 +1,12 @@
 {
-  "uid" : "68e17af6f865c5bf",
-  "name" : "Test_Case >> 100002 >> Verify all the input fields, buttons and links are beign displayed",
-  "fullName" : "Authentify user can signup.Test_Case >> 100002 >> Verify all the input fields, buttons and links are beign displayed",
-  "historyId" : "e2975c2d63f0653e8127d4992d7b7f65",
+  "uid" : "9777c68bf5091db5",
+  "name" : "Test_Case >> 100008 >> Verify that email length must not be more than 254 characters",
+  "fullName" : "Authentify user can signup.Test_Case >> 100008 >> Verify that email length must not be more than 254 characters",
+  "historyId" : "c8a0fe1fa5f247f5e7c213d6463d8de0",
   "time" : {
-    "start" : 1642974103883,
-    "stop" : 1642974104056,
-    "duration" : 173
+    "start" : 1642985393499,
+    "stop" : 1642985397126,
+    "duration" : 3627
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,7 +27,7 @@
     "value" : "Authentify user can signup"
   }, {
     "name" : "testMethod",
-    "value" : "Test_Case >> 100002 >> Verify all the input fields, buttons and links are beign displayed"
+    "value" : "Test_Case >> 100008 >> Verify that email length must not be more than 254 characters"
   }, {
     "name" : "package",
     "value" : "Authentify user can signup"
@@ -45,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "68e17af6f865c5bf.json",
+  "source" : "9777c68bf5091db5.json",
   "parameterValues" : [ ]
 }

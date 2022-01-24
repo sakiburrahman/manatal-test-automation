@@ -1,0 +1,56 @@
+{
+  "uid" : "56be1d2a0432229c",
+  "name" : "Test_Case >> 100012 >> Verify that phone number length must not be more than 11 characters",
+  "fullName" : "Authentify user can signup.Test_Case >> 100012 >> Verify that phone number length must not be more than 11 characters",
+  "historyId" : "7ab376e969ca803b03fecc2c220318c2",
+  "time" : {
+    "start" : 1642985403263,
+    "stop" : 1642985437051,
+    "duration" : 33788
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 30000ms: Expected to find content: 'Enter a valid phone number' within the element: <span.red--text.mt-1.d-block.ml-2> but never did.",
+  "statusTrace" : "AssertionError: Timed out retrying after 30000ms: Expected to find content: 'Enter a valid phone number' within the element: <span.red--text.mt-1.d-block.ml-2> but never did.\n                    at Context.eval (https://jb-app-frontend-staging.herokuapp.com/__cypress/tests?p=cypress\\integration\\test-scripts\\registration.js:228:39)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testClass",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Case >> 100012 >> Verify that phone number length must not be more than 11 characters"
+  }, {
+    "name" : "package",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "56be1d2a0432229c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,50 @@
+{
+  "uid" : "db3f01300b036eec",
+  "name" : "Test_Case >> 100009 >> Verify that company email address and confirm compnay email address must match",
+  "fullName" : "Authentify user can signup.Test_Case >> 100009 >> Verify that company email address and confirm compnay email address must match",
+  "historyId" : "bf463582fd76747bdd473f1bfbb94448",
+  "time" : {
+    "start" : 1642985397131,
+    "stop" : 1642985398263,
+    "duration" : 1132
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testClass",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Case >> 100009 >> Verify that company email address and confirm compnay email address must match"
+  }, {
+    "name" : "package",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db3f01300b036eec.json",
+  "parameterValues" : [ ]
+}

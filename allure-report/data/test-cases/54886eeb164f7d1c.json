@@ -1,12 +1,12 @@
 {
-  "uid" : "a269946df1f9d59e",
-  "name" : "Test_Case >> 100004 >> Check that the required fields of the signup form behave as expected",
-  "fullName" : "Authentify user can signup.Test_Case >> 100004 >> Check that the required fields of the signup form behave as expected",
-  "historyId" : "6a46dce12628599faf3ab585c78a30df",
+  "uid" : "54886eeb164f7d1c",
+  "name" : "Test_Case >> 100007 >> Verify that email address must be valid",
+  "fullName" : "Authentify user can signup.Test_Case >> 100007 >> Verify that email address must be valid",
+  "historyId" : "dd51d1c32d5700604b6d7e472ca9927d",
   "time" : {
-    "start" : 1642974104097,
-    "stop" : 1642974104321,
-    "duration" : 224
+    "start" : 1642985392743,
+    "stop" : 1642985393494,
+    "duration" : 751
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,7 +27,7 @@
     "value" : "Authentify user can signup"
   }, {
     "name" : "testMethod",
-    "value" : "Test_Case >> 100004 >> Check that the required fields of the signup form behave as expected"
+    "value" : "Test_Case >> 100007 >> Verify that email address must be valid"
   }, {
     "name" : "package",
     "value" : "Authentify user can signup"
@@ -45,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a269946df1f9d59e.json",
+  "source" : "54886eeb164f7d1c.json",
   "parameterValues" : [ ]
 }

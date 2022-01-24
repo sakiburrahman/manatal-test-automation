@@ -84,29 +84,47 @@ describe('Authentify user can signup', () => {
 
     })
 
-    it('Test_Case >> 100008>> Verify that email length must not be more than 254 characters', () => {
+    it('Test_Case >> 100008 >> Verify that email length must not be more than 254 characters', () => {
         signupPage.inputLongCompanyEmail();
         signupPage.getFirstErrorMessage().contains('The company email address field may not be greater than 254 characters');
 
     })
 
 
-    it('Test_Case >> 100009>> Verify that company email address and confirm compnay email address must match', () => {
+    it('Test_Case >> 100009 >> Verify that company email address and confirm compnay email address must match', () => {
         signupPage.inputCompanyEmail();
         signupPage.inputDifferentConfirmCompanyEmail();
         signupPage.getFirstErrorMessage().contains('The confirm company email address confirmation does not match');
 
     })
 
-    it('Test_Case >> 100010>> Verify that password length must not be more than 254 characters', () => {
+    it('Test_Case >> 100010 >> Verify that password length must not be more than 254 characters', () => {
         signupPage.inputConfirmCompanyEmail();
         signupPage.inputLongPassword();
         signupPage.getFirstErrorMessage().contains('The password field may not be greater than 255 characters');
 
     })
 
-    it('Test_Case >> 100011 >> Check that the privacy policy & terms and conditions is required to submit the form', () => {
+    it('Test_Case >> 100011 >> Verify that invalid phone number does not accepted', () => {
         signupPage.inputPassword();
+        signupPage.inputInvalidPhoneNumber();
+        signupPage.getFirstErrorMessage().contains('Enter a valid phone number');
+
+    })
+
+    it('Test_Case >> 100012 >> Verify that phone number length must not be more than 11 characters', () => {
+        signupPage.inputLongPhoneNumber();
+        signupPage.getFirstErrorMessage().contains('Enter a valid phone number');
+
+    })
+
+    it('Test_Case >> 100013 >> Verify that phone number only accept numeric characters', () => {
+        signupPage.inputAlphanumericPhoneNumber();
+        signupPage.getFirstErrorMessage().contains('Enter a valid phone number');
+
+    })
+
+    it('Test_Case >> 100014 >> Check that the privacy policy & terms and conditions is required to submit the form', () => {
         signupPage.selectCountyCode();
         signupPage.inputPhoneNumber();
         signupPage.displaySignupButton();
@@ -115,7 +133,8 @@ describe('Authentify user can signup', () => {
 
     })
 
-    it('Test_Case >> 100012 >> Check that the "confirm your email-address" page is displayed after the form submission and includes the email address added by the user in the sign up form', () => {
+    it('Test_Case >> 100015 >> Check that the "confirm your email-address" page is displayed after the form submission and includes the email address added by the user in the sign up form', () => {
+        signupPage.selectCompanyRadioButton();
         signupPage.checkIAgreeCheckbox();
         signupPage.displaySignupButton();
         signupPage.clickOnSignupButton();

@@ -1,12 +1,12 @@
 {
-  "uid" : "ea69b9c676cec4eb",
-  "name" : "Test_Case >> 100005 >> Check that the privacy policy & terms and conditions is required to submit the form",
-  "fullName" : "Authentify user can signup.Test_Case >> 100005 >> Check that the privacy policy & terms and conditions is required to submit the form",
-  "historyId" : "8d994c94ea0f19e395d50493d17b90b1",
+  "uid" : "53f1de1628a6b5cd",
+  "name" : "Test_Case >> 100010 >> Verify that password length must not be more than 254 characters",
+  "fullName" : "Authentify user can signup.Test_Case >> 100010 >> Verify that password length must not be more than 254 characters",
+  "historyId" : "2165592e41b1beb821876e29d5fb531c",
   "time" : {
-    "start" : 1642974104333,
-    "stop" : 1642974108786,
-    "duration" : 4453
+    "start" : 1642985398269,
+    "stop" : 1642985402557,
+    "duration" : 4288
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,7 +27,7 @@
     "value" : "Authentify user can signup"
   }, {
     "name" : "testMethod",
-    "value" : "Test_Case >> 100005 >> Check that the privacy policy & terms and conditions is required to submit the form"
+    "value" : "Test_Case >> 100010 >> Verify that password length must not be more than 254 characters"
   }, {
     "name" : "package",
     "value" : "Authentify user can signup"
@@ -45,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ea69b9c676cec4eb.json",
+  "source" : "53f1de1628a6b5cd.json",
   "parameterValues" : [ ]
 }

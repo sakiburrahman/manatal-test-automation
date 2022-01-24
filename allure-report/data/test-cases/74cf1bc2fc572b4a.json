@@ -1,12 +1,12 @@
 {
-  "uid" : "2882fd6e4f5e61be",
-  "name" : "Test_Case >> 100006 >> Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form",
-  "fullName" : "Authentify user can signup.Test_Case >> 100006 >> Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form",
-  "historyId" : "10d78f7ee5d7806e1a470b34e1943067",
+  "uid" : "74cf1bc2fc572b4a",
+  "name" : "Test_Case >> 100011 >> Verify that invalid phone number does not accepted",
+  "fullName" : "Authentify user can signup.Test_Case >> 100011 >> Verify that invalid phone number does not accepted",
+  "historyId" : "69325891ade6e9b9ba439a774ae0849c",
   "time" : {
-    "start" : 1642974108800,
-    "stop" : 1642974110559,
-    "duration" : 1759
+    "start" : 1642985402564,
+    "stop" : 1642985403258,
+    "duration" : 694
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,7 +27,7 @@
     "value" : "Authentify user can signup"
   }, {
     "name" : "testMethod",
-    "value" : "Test_Case >> 100006 >> Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form"
+    "value" : "Test_Case >> 100011 >> Verify that invalid phone number does not accepted"
   }, {
     "name" : "package",
     "value" : "Authentify user can signup"
@@ -45,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2882fd6e4f5e61be.json",
+  "source" : "74cf1bc2fc572b4a.json",
   "parameterValues" : [ ]
 }

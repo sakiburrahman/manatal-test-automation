@@ -243,8 +243,8 @@ export default class SignUpPage {
     };
 
 
-    selectkCompanyRadioButton = () => {
-        this.displayAgreeCheckbox();
+    selectCompanyRadioButton = () => {
+        this.displayCompanyRadioButton();
         this.getCompanyRadioButton().click();
         basePage.logInfo('[Compnay] radio button has been selected');
     };
@@ -374,11 +374,36 @@ export default class SignUpPage {
     };
 
     inputPhoneNumber = () => {
+        const PHONE_NUMBER = '01774377773';
         this.getPhoneNumberInputField().clear();
         basePage.logInfo('[Phone Numbe] input box has been cleared');
-        this.getPhoneNumberInputField().type('01774377773');
+        this.getPhoneNumberInputField().type(PHONE_NUMBER);
         basePage.logInfo('Phone number has been entered in [Phone Number] input field');
 
+    };
+
+    inputInvalidPhoneNumber = () => {
+        const PHONE_NUMBER = '016439213492';
+        this.getPhoneNumberInputField().clear();
+        basePage.logInfo('[Phone Numbe] input box has been cleared');
+        this.getPhoneNumberInputField().type(PHONE_NUMBER);
+        basePage.logInfo('Phone number has been entered in [Phone Number] input field');
+    };
+
+    inputLongPhoneNumber = () => {
+        const PHONE_NUMBER = '0177437777334234234233242342301774377773342342342332423423017743777733423423423324234230177437777334234234233242342301774377773342342342332423423017743777733423423423324234230177437777334234234233242342301774377773342342342332423423017743777733423423423325';
+        this.getPhoneNumberInputField().clear();
+        basePage.logInfo('[Phone Numbe] input box has been cleared');
+        this.getPhoneNumberInputField().type(PHONE_NUMBER);
+        basePage.logInfo('Phone number has been entered in [Phone Number] input field');
+    };
+
+    inputAlphanumericPhoneNumber = () => {
+        const PHONE_NUMBER = '017 43EE$3';
+        this.getPhoneNumberInputField().clear();
+        basePage.logInfo('[Phone Numbe] input box has been cleared');
+        this.getPhoneNumberInputField().type(PHONE_NUMBER);
+        basePage.logInfo('Phone number has been entered in [Phone Number] input field');
     };
 
 

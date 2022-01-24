@@ -1,3 +1,6 @@
+/// <reference types="@shelex/cypress-allure-plugin" />
+
+
 
 // ***********************************************************
 // This example support/index.js is processed and

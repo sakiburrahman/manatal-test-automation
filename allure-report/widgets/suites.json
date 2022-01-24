@@ -4,12 +4,12 @@
     "uid" : "86d5866f8ea33fc698333f994854aed5",
     "name" : "Authentify user can signup",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 14,
       "unknown" : 0,
-      "total" : 6
+      "total" : 15
     }
   } ]
 }

@@ -5,13 +5,13 @@
     "name" : "Authentify user can signup",
     "children" : [ {
       "name" : "Test_Case >> 100001 >> Should open free trial page",
-      "uid" : "c29ae3bd6dff8a2d",
+      "uid" : "a00df33b20cdb9f3",
       "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
       "status" : "passed",
       "time" : {
-        "start" : 1642974103793,
-        "stop" : 1642974103872,
-        "duration" : 79
+        "start" : 1642985384454,
+        "stop" : 1642985384563,
+        "duration" : 109
       },
       "flaky" : false,
       "newFailed" : false,
@@ -21,14 +21,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Test_Case >> 100002 >> Verify all the input fields, buttons and links are beign displayed",
-      "uid" : "68e17af6f865c5bf",
+      "name" : "Test_Case >> 100002 >> Verify all the input fields, buttons and links are beign displayed signup page",
+      "uid" : "2b18069ed077db53",
       "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
       "status" : "passed",
       "time" : {
-        "start" : 1642974103883,
-        "stop" : 1642974104056,
-        "duration" : 173
+        "start" : 1642985384576,
+        "stop" : 1642985384834,
+        "duration" : 258
       },
       "flaky" : false,
       "newFailed" : false,
@@ -39,13 +39,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Test_Case >> 100003 >> Verify all the required fields have asterisk sign",
-      "uid" : "d967075c6d7608d0",
+      "uid" : "7c10773cc393129d",
       "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
       "status" : "passed",
       "time" : {
-        "start" : 1642974104065,
-        "stop" : 1642974104091,
-        "duration" : 26
+        "start" : 1642985384845,
+        "stop" : 1642985384880,
+        "duration" : 35
       },
       "flaky" : false,
       "newFailed" : false,
@@ -56,13 +56,13 @@
       "parameters" : [ ]
     }, {
       "name" : "Test_Case >> 100004 >> Check that the required fields of the signup form behave as expected",
-      "uid" : "a269946df1f9d59e",
+      "uid" : "454d4dca82769e0b",
       "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
       "status" : "passed",
       "time" : {
-        "start" : 1642974104097,
-        "stop" : 1642974104321,
-        "duration" : 224
+        "start" : 1642985384881,
+        "stop" : 1642985385124,
+        "duration" : 243
       },
       "flaky" : false,
       "newFailed" : false,
@@ -72,14 +72,14 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Test_Case >> 100005 >> Check that the privacy policy & terms and conditions is required to submit the form",
-      "uid" : "ea69b9c676cec4eb",
+      "name" : "Test_Case >> 100005 >> Verify that name length must not be more than 255 characters",
+      "uid" : "79d7f8c64adcafa0",
       "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
       "status" : "passed",
       "time" : {
-        "start" : 1642974104333,
-        "stop" : 1642974108786,
-        "duration" : 4453
+        "start" : 1642985385129,
+        "stop" : 1642985388809,
+        "duration" : 3680
       },
       "flaky" : false,
       "newFailed" : false,
@@ -89,14 +89,167 @@
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
-      "name" : "Test_Case >> 100006 >> Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form",
-      "uid" : "2882fd6e4f5e61be",
+      "name" : "Test_Case >> 100006 >> Verify that organization name length must not be more than 255 characters",
+      "uid" : "898d7041fbcbf7b1",
       "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
       "status" : "passed",
       "time" : {
-        "start" : 1642974108800,
-        "stop" : 1642974110559,
-        "duration" : 1759
+        "start" : 1642985388818,
+        "stop" : 1642985392735,
+        "duration" : 3917
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_Case >> 100007 >> Verify that email address must be valid",
+      "uid" : "54886eeb164f7d1c",
+      "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642985392743,
+        "stop" : 1642985393494,
+        "duration" : 751
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_Case >> 100008 >> Verify that email length must not be more than 254 characters",
+      "uid" : "9777c68bf5091db5",
+      "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642985393499,
+        "stop" : 1642985397126,
+        "duration" : 3627
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_Case >> 100009 >> Verify that company email address and confirm compnay email address must match",
+      "uid" : "db3f01300b036eec",
+      "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642985397131,
+        "stop" : 1642985398263,
+        "duration" : 1132
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_Case >> 100010 >> Verify that password length must not be more than 254 characters",
+      "uid" : "53f1de1628a6b5cd",
+      "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642985398269,
+        "stop" : 1642985402557,
+        "duration" : 4288
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_Case >> 100011 >> Verify that invalid phone number does not accepted",
+      "uid" : "74cf1bc2fc572b4a",
+      "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642985402564,
+        "stop" : 1642985403258,
+        "duration" : 694
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_Case >> 100012 >> Verify that phone number length must not be more than 11 characters",
+      "uid" : "56be1d2a0432229c",
+      "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
+      "status" : "failed",
+      "time" : {
+        "start" : 1642985403263,
+        "stop" : 1642985437051,
+        "duration" : 33788
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_Case >> 100013 >> Verify that phone number only accept numeric characters",
+      "uid" : "40137b3ce0e9130f",
+      "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642985437088,
+        "stop" : 1642985437434,
+        "duration" : 346
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_Case >> 100014 >> Check that the privacy policy & terms and conditions is required to submit the form",
+      "uid" : "42f1bfb43be1432e",
+      "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642985437439,
+        "stop" : 1642985438842,
+        "duration" : 1403
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test_Case >> 100015 >> Check that the \"confirm your email-address\" page is displayed after the form submission and includes the email address added by the user in the sign up form",
+      "uid" : "45b231e623eadaa0",
+      "parentUid" : "2926cff6b0f8aebb4d71f9733747cf1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642985438848,
+        "stop" : 1642985440764,
+        "duration" : 1916
       },
       "flaky" : false,
       "newFailed" : false,

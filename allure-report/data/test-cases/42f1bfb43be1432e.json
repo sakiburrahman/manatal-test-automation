@@ -1,12 +1,12 @@
 {
-  "uid" : "d967075c6d7608d0",
-  "name" : "Test_Case >> 100003 >> Verify all the required fields have asterisk sign",
-  "fullName" : "Authentify user can signup.Test_Case >> 100003 >> Verify all the required fields have asterisk sign",
-  "historyId" : "4513fd4be85acb67ba114a1c41de4322",
+  "uid" : "42f1bfb43be1432e",
+  "name" : "Test_Case >> 100014 >> Check that the privacy policy & terms and conditions is required to submit the form",
+  "fullName" : "Authentify user can signup.Test_Case >> 100014 >> Check that the privacy policy & terms and conditions is required to submit the form",
+  "historyId" : "1b8457112df9c7747f2a54ac12dbc4f",
   "time" : {
-    "start" : 1642974104065,
-    "stop" : 1642974104091,
-    "duration" : 26
+    "start" : 1642985437439,
+    "stop" : 1642985438842,
+    "duration" : 1403
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -27,7 +27,7 @@
     "value" : "Authentify user can signup"
   }, {
     "name" : "testMethod",
-    "value" : "Test_Case >> 100003 >> Verify all the required fields have asterisk sign"
+    "value" : "Test_Case >> 100014 >> Check that the privacy policy & terms and conditions is required to submit the form"
   }, {
     "name" : "package",
     "value" : "Authentify user can signup"
@@ -45,6 +45,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d967075c6d7608d0.json",
+  "source" : "42f1bfb43be1432e.json",
   "parameterValues" : [ ]
 }

@@ -33,4 +33,5 @@ npm run cy:open
 
 # To run the test script with allure report
 npm run test:allure
+npm run report:allure
 

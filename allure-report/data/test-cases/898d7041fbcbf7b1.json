@@ -1,0 +1,50 @@
+{
+  "uid" : "898d7041fbcbf7b1",
+  "name" : "Test_Case >> 100006 >> Verify that organization name length must not be more than 255 characters",
+  "fullName" : "Authentify user can signup.Test_Case >> 100006 >> Verify that organization name length must not be more than 255 characters",
+  "historyId" : "d3754658cffd8a73a0803fe7a4e85d2d",
+  "time" : {
+    "start" : 1642985388818,
+    "stop" : 1642985392735,
+    "duration" : 3917
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testClass",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_Case >> 100006 >> Verify that organization name length must not be more than 255 characters"
+  }, {
+    "name" : "package",
+    "value" : "Authentify user can signup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "898d7041fbcbf7b1.json",
+  "parameterValues" : [ ]
+}
