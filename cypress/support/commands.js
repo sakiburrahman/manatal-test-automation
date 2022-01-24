@@ -115,6 +115,7 @@ Cypress.Commands.add('navigateToManatalSite', () => {
     cy.fixture('loginCredentials').then((data) => {
         const URL = data.websiteUrl;
         cy.visit(URL);
+        basePage.pause(50000);
         basePage.logInfo('Web Site has been loaded successfully');
     });
 

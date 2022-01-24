@@ -1,6 +1,9 @@
 # manatal-test-automation
 Test Automation Script for registration process
 
+# To See the test cases
+Navigate to cypress\test-cases\signup-test-case.xlsx
+
 # To Install cypress
 1. Download Node Js and install
 2. Run cmd and install cypress using the following command 
@@ -34,4 +37,3 @@ npm run cy:open
 # To run the test script with allure report
 npm run test:allure
 npm run report:allure
-

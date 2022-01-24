@@ -16,7 +16,7 @@ describe('Authentify user can signup', () => {
 
     });
 
-    it('Test_Case >> 100001 >> Should open free trial page', () => {
+    it('Test_Case >> 100001 >> Verify the trial infromation present in signup page', () => {
         signupPage.displayHeaderText();
         signupPage.getHeaderText().contains('Start Your Free Trial');
         signupPage.getFreeTrialDaysText().contains('14-day free trial and no credit card required.');
